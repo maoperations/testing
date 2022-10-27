@@ -1,0 +1,50 @@
+body {
+  font-family: "Poppins", sans-serif;
+  /* background: #E5E5E5; */
+}
+
+.header {
+  height: 105px;
+  background-color: #16ABF8;
+  display: flex;
+  color: #FFFF;
+  align-items: center;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.todo-activity {
+  margin: 43px 0 55px;
+}
+
+.todo-activity .btn {
+  width: 159px;
+  height: 54px;
+  background-color: #16ABF8;
+}
+
+.activity-empty-state {
+  height: 490px;
+  width: 767px;
+  left: 336px;
+  top: 267px;
+  border-radius: 0px;
+}
+
+.activity-item {
+  height: 234px;
+  width: 235px;
+  border-radius: 12px;
+}
+
+.card-footer {
+  background-color: transparent !important;
+  border: 0;
+  color: #888888;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+}
